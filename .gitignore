@@ -1,2 +1,26 @@
-.venv
-.idea
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.egg-info/
+*.egg
+*.eggs
+*.log
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# PyCharm
+.idea/
+*.iml
+
+# MkDocs build output
+/site/
+
+# Mac / Linux / Windows system files
+.DS_Store
+Thumbs.db

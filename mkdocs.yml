@@ -1,8 +1,26 @@
-site_name: My Documentation
-theme: material
+site_name: Dogpedia
+site_description: A guide to dog breeds, care, and training
+site_author: Your Name
+site_url: https://username.github.io/dogpedia/
+
+theme:
+  name: material
+  features:
+    - navigation.expand
+    - navigation.sections
+    - search.highlight
+    - toc.integrate
 
 nav:
   - Home: index.md
-  - Getting Started: getting-started.md
-  - Usage: intro.md
-  - FAQ: faw.md
+  - Breeds:
+      - Popular Breeds: breeds.md
+  - Care: care.md
+  - Training: training.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - footnotes
