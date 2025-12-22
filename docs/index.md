@@ -15,4 +15,4 @@ This is a **MkDocs** site written in Markdown.
 
 ```python
 def hello():
-    print("Hello, MkDocdds!")
+    print("Hello, MkDocds!")
