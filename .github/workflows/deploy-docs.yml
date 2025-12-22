@@ -3,7 +3,7 @@ name: Deploy MkDocs to GitHub Pages
 on:
   push:
     branches:
-      - main   # change if you use master
+      - master   # change if you use master
 
 permissions:
   contents: write
