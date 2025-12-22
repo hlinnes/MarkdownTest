@@ -4,5 +4,5 @@ theme: material
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
-  - Usage: usage.md
-  - FAQ: faq.md
+  - Usage: intro.md
+  - FAQ: faw.md
