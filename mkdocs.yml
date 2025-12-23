@@ -1,7 +1,7 @@
 site_name: Dogpedia
 site_description: A guide to dog breeds, care, and training
 site_author: Your Name
-site_url: https://username.github.io/dogpedia/
+site_url: https://hlinnes.github.io/MarkdownTest/
 
 theme:
   name: material
@@ -13,8 +13,7 @@ theme:
 
 nav:
   - Home: index.md
-  - Breeds:
-      - Popular Breeds: breeds.md
+  - Breeds: breeds.md
   - Care: care.md
   - Training: training.md
 
